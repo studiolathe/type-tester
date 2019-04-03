@@ -22,16 +22,16 @@
 
       </div>
       <div class="text heading-one">
-        <caption>Heading One</caption>
-        <h1 class="pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
+        <span class="w-100 w-25-m">Heading One</span>
+        <h1 class="w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
       </div>
       <div class="text heading-two">
-        <caption>Heading Two</caption>
-        <h2 class="pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h2>
+        <span class="w-100 w-25-m">Heading Two</span>
+        <h2 class="w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h2>
       </div>
       <div class="text body">
-        <caption>Body Text</caption>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo leo, accumsan id ex ac, dapibus dapibus nunc. Nulla hendrerit velit nulla, ut iaculis eros sodales vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras iaculis tortor non ante tristique, nec ornare ante faucibus. Suspendisse et mauris sit amet odio tempor cursus a ac velit. Vivamus at felis finibus, viverra nulla sed, sodales mi. Curabitur blandit sed ligula vel porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu nulla suscipit, placerat libero sit amet, pretium massa. In odio dui, pellentesque ac semper quis, congue eu risus. Nullam quis ligula quis ex scelerisque efficitur.
+        <span class="w-100 w-25-m">Body Text</span>
+        <p class="w-100 w-75-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo leo, accumsan id ex ac, dapibus dapibus nunc. Nulla hendrerit velit nulla, ut iaculis eros sodales vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras iaculis tortor non ante tristique, nec ornare ante faucibus. Suspendisse et mauris sit amet odio tempor cursus a ac velit. Vivamus at felis finibus, viverra nulla sed, sodales mi. Curabitur blandit sed ligula vel porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu nulla suscipit, placerat libero sit amet, pretium massa. In odio dui, pellentesque ac semper quis, congue eu risus. Nullam quis ligula quis ex scelerisque efficitur.
 
         Nam eget neque justo. Phasellus congue, urna vel euismod consequat, leo quam pulvinar nisl, sit amet tincidunt purus diam at libero. Aliquam sed ex at diam imperdiet vestibulum vitae sed velit. Donec tincidunt tristique eros, non ullamcorper quam scelerisque interdum. Aliquam vel aliquam augue. Morbi posuere, nisl ut lobortis vestibulum, leo leo hendrerit orci, ullamcorper tincidunt arcu ex ut magna. Donec tellus leo, pellentesque et aliquam at, feugiat id leo.
 
@@ -84,8 +84,8 @@
     }
 
     padding-bottom: $padding;
-    caption{
-      width: 300px;
+    span{
+      color: lightgrey;
     }
   }
 </style>
