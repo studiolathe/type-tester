@@ -1,0 +1,99 @@
+/* General layout
+========================================================================== */
+body{
+  height: 100%;
+}
+.app{
+
+}
+.app-container{
+  padding: 20rem $padding $padding $padding;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  // margin-bottom: 100vh;
+}
+
+.main-content{
+  width: 100%;
+
+}
+
+.main-content-wrapper{
+  margin: 0 auto;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  @include breakpoint(md){
+    flex-direction: row;
+  }
+}
+
+// .headline{
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   width: 90vw;
+//   // z-index: -100;
+//   background-color: $tan;
+//    @include breakpoint(sm){
+//     width: 75vw;
+//   }
+// }
+
+/* Page transitions
+========================================================================== */
+.page-enter-active, .page-leave-active {
+   transition: all .5s $ease;
+   transform: translate3d(0,0,0);
+ }
+
+.page-enter, .page-leave-active {
+ opacity: 0;
+ transform-origin: 50% 50%;
+ transform: translate3d(0,20px,0);
+}
+
+ // .fade-enter-active, .fade-leave-active {
+ //   transition: all .5s ease-in;
+ //   transform: translate3d(0,0,0);
+ // }
+ // .fade-enter, .fade-leave-active /* .fade-leave-active below version 2.1.8 */ {
+ //   transform: translate3d(0,-200px,0);
+ // }
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  transform: rotateY(50deg);
+}
+.fade-enter-to,
+.fade-leave {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity, transform 200ms $ease;
+}
+
+/* Images
+========================================================================== */
+img,svg{
+  width: 100%;
+  height: auto;
+  display: block;
+}

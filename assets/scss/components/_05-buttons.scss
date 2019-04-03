@@ -1,0 +1,21 @@
+.button-round{
+  background: rgba(97, 97, 97, 0.1);
+  display: inline-block;
+  min-width: 80px;
+  height: 45px;
+  border-radius: 45px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-decoration: none;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.35s ease-in;
+  &:hover{
+    background: rgba(97, 97, 97, 0.25);
+    a{
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 767px) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (min-width: 768px) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: 992px) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: 1200px) { @content; }
+  }
+
+	@else if $class == xl {
+		@media (min-width: 1440px) { @content; }
+	}
+
+	@else if $class == xxl {
+		@media (min-width: 2560px) { @content; }
+	}
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg, xl, xxl";
+  }
+}
+
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      // transform: translate3d(0, 10%, 0);
+    }
+    to {
+      opacity: 1;
+      // transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes rotate {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.rotate {
+  animation: rotate 2.5s linear infinite;
+}
+
+.fade-out { animation: fade-out .5s ease forwards !important; }
+.fade-in { animation: fade-in .5s ease forwards; }
