@@ -100,14 +100,16 @@
       let h2 = document.querySelector("h2");
       let p = document.querySelector("p");
 
-      // let h1  = document.getElementById("h1");
-      // let styles = window.getComputedStyle(h1);
-      // let annotation = h1.closest(".size");
-      // annotation.textContent = styles.getPropertyValue('font-size') + ' / ' + styles.getPropertyValue('line-height');
-
       getSize(h1);
       getSize(h2);
       getSize(p);
+      
+      window.addEventListener("resize", function(){
+        getSize(h1);
+        getSize(h2);
+        getSize(p);
+      });
+
 
     }
   }
@@ -115,7 +117,7 @@
 
 <style lang="scss" scoped>
   .container{
-    max-width: 1280px;
+    max-width: 1440px;
     width: 100%;
     padding: $padding;
     display: flex;
