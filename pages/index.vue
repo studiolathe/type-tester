@@ -22,22 +22,22 @@
 
       </div>
       <div class="text heading-one">
-        <span class="w-100 w-25-m">Heading One</span>
-        <h1 class="w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
+        <span class="w-100 w-25-m">Heading One <span class="label db"></span></span>
+        <h1 id="h1" class="w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
       </div>
       <div class="text heading-two">
-        <span class="w-100 w-25-m">Heading Two</span>
+        <span class="w-100 w-25-m">Heading Two <span class="label db"></span></span>
         <h2 class="w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h2>
       </div>
       <div class="text body">
-        <span class="w-100 w-25-m">Body Text</span>
-        <p class="w-100 w-75-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo leo, accumsan id ex ac, dapibus dapibus nunc. Nulla hendrerit velit nulla, ut iaculis eros sodales vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras iaculis tortor non ante tristique, nec ornare ante faucibus. Suspendisse et mauris sit amet odio tempor cursus a ac velit. Vivamus at felis finibus, viverra nulla sed, sodales mi. Curabitur blandit sed ligula vel porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu nulla suscipit, placerat libero sit amet, pretium massa. In odio dui, pellentesque ac semper quis, congue eu risus. Nullam quis ligula quis ex scelerisque efficitur.
+        <span class="w-100 w-25-m">Body Text<span class="label db"></span></span>
+        <p class="w-100 w-75-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse justo leo, accumsan id ex ac, dapibus dapibus nunc. Nulla hendrerit velit nulla, ut iaculis eros sodales vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras iaculis tortor non ante tristique, nec ornare ante faucibus. Suspendisse et mauris sit amet odio tempor cursus a ac velit. Vivamus at felis finibus, viverra nulla sed, sodales mi. Curabitur blandit sed ligula vel porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus eu nulla suscipit, placerat libero sit amet, pretium massa. In odio dui, pellentesque ac semper quis, congue eu risus. Nullam quis ligula quis ex scelerisque efficitur.<br><br>
 
-        Nam eget neque justo. Phasellus congue, urna vel euismod consequat, leo quam pulvinar nisl, sit amet tincidunt purus diam at libero. Aliquam sed ex at diam imperdiet vestibulum vitae sed velit. Donec tincidunt tristique eros, non ullamcorper quam scelerisque interdum. Aliquam vel aliquam augue. Morbi posuere, nisl ut lobortis vestibulum, leo leo hendrerit orci, ullamcorper tincidunt arcu ex ut magna. Donec tellus leo, pellentesque et aliquam at, feugiat id leo.
+        Nam eget neque justo. Phasellus congue, urna vel euismod consequat, leo quam pulvinar nisl, sit amet tincidunt purus diam at libero. Aliquam sed ex at diam imperdiet vestibulum vitae sed velit. Donec tincidunt tristique eros, non ullamcorper quam scelerisque interdum. Aliquam vel aliquam augue. Morbi posuere, nisl ut lobortis vestibulum, leo leo hendrerit orci, ullamcorper tincidunt arcu ex ut magna. Donec tellus leo, pellentesque et aliquam at, feugiat id leo.<br><br>
 
-        Morbi ac eleifend neque. Sed semper sapien eget tortor bibendum dictum. Proin luctus dignissim egestas. Mauris dapibus pulvinar magna, ut luctus massa pharetra porta. Fusce eleifend maximus erat porttitor efficitur. Suspendisse quam risus, facilisis a viverra aliquet, rhoncus id ipsum. Nullam orci mi, pretium nec lacinia nec, porta vel leo. Integer imperdiet, dui vitae faucibus sodales, risus ligula bibendum neque, sit amet lobortis eros velit sit amet mi. Nullam porta vestibulum ultricies. Cras purus nibh, bibendum ut erat quis, maximus sodales augue. Nullam in tellus lobortis, viverra diam in, fringilla diam. In semper nunc non efficitur lacinia. Vestibulum vel risus dignissim, posuere magna eget, convallis odio.
+        Morbi ac eleifend neque. Sed semper sapien eget tortor bibendum dictum. Proin luctus dignissim egestas. Mauris dapibus pulvinar magna, ut luctus massa pharetra porta. Fusce eleifend maximus erat porttitor efficitur. Suspendisse quam risus, facilisis a viverra aliquet, rhoncus id ipsum. Nullam orci mi, pretium nec lacinia nec, porta vel leo. Integer imperdiet, dui vitae faucibus sodales, risus ligula bibendum neque, sit amet lobortis eros velit sit amet mi. Nullam porta vestibulum ultricies. Cras purus nibh, bibendum ut erat quis, maximus sodales augue. Nullam in tellus lobortis, viverra diam in, fringilla diam. In semper nunc non efficitur lacinia. Vestibulum vel risus dignissim, posuere magna eget, convallis odio.<br><br>
 
-        Sed quis mauris quis orci facilisis ultrices et id erat. Fusce sed convallis arcu. In eget pellentesque tortor, et euismod dolor. Sed quam massa, pulvinar et ligula eu, condimentum convallis nisl. Nullam gravida malesuada urna, a pulvinar mauris tempor ut. Nullam mollis ipsum non nisi sagittis, in euismod lectus elementum. Duis suscipit pharetra imperdiet. Praesent mattis mauris mattis tortor congue consequat. Etiam elementum eu purus a porttitor. In ultrices laoreet ante, porttitor finibus odio venenatis sed. Duis ipsum neque, pretium id metus non, dignissim sollicitudin arcu. Proin laoreet, lorem imperdiet consectetur tincidunt, massa massa mollis leo, eu consequat dui purus vitae eros. Maecenas feugiat, justo a placerat fringilla, dolor ipsum dignissim leo, ac venenatis orci magna vitae purus. Praesent ullamcorper id ante in mattis. Ut efficitur nibh eu justo gravida dapibus.
+        Sed quis mauris quis orci facilisis ultrices et id erat. Fusce sed convallis arcu. In eget pellentesque tortor, et euismod dolor. Sed quam massa, pulvinar et ligula eu, condimentum convallis nisl. Nullam gravida malesuada urna, a pulvinar mauris tempor ut. Nullam mollis ipsum non nisi sagittis, in euismod lectus elementum. Duis suscipit pharetra imperdiet. Praesent mattis mauris mattis tortor congue consequat. Etiam elementum eu purus a porttitor. In ultrices laoreet ante, porttitor finibus odio venenatis sed. Duis ipsum neque, pretium id metus non, dignissim sollicitudin arcu. Proin laoreet, lorem imperdiet consectetur tincidunt, massa massa mollis leo, eu consequat dui purus vitae eros. Maecenas feugiat, justo a placerat fringilla, dolor ipsum dignissim leo, ac venenatis orci magna vitae purus. Praesent ullamcorper id ante in mattis. Ut efficitur nibh eu justo gravida dapibus.<br><br>
 
         Cras bibendum odio ut nisi pretium porttitor. Aliquam nec tempor turpis. Curabitur hendrerit est eu risus tempus laoreet. Aenean nec luctus nulla. Cras fringilla interdum diam, a posuere dui. Praesent non diam et magna dictum viverra sit amet non sapien. Pellentesque posuere purus sed justo blandit, blandit accumsan nisl iaculis. Mauris a arcu ante. Morbi fermentum lorem finibus, maximus turpis at, imperdiet metus. Nulla tincidunt tincidunt purus quis interdum. Sed tristique mi sed lacinia congue. Vivamus quam eros, luctus in ligula vel, ornare fermentum nunc. Nam est erat, hendrerit a rutrum quis, gravida at lectus. Nunc dui neque, viverra at tristique vitae, porta ac velit. Vestibulum mattis ipsum lorem, pretium dapibus metus blandit ac.</p>
       </div>
@@ -45,7 +45,39 @@
 </template>
 
 <script>
+  import $ from 'jquery'
+
   export default {
+    mounted: () => {
+
+      // let para = document.querySelector('p');
+      // let compStyles = window.getComputedStyle(para);
+      // para.textContent = 'My computed font-size is ' +
+      //     compStyles.getPropertyValue('font-size') +
+      //     ',\nand my computed line-height is ' +
+      //     compStyles.getPropertyValue('line-height') +
+      //     '.';
+
+      let getSize = function(elem) {
+        let styles = window.getComputedStyle(elem);
+        let label = elem.closest('.text').querySelector('.label')
+        label.textContent = styles.getPropertyValue('font-size') + ' / ' + styles.getPropertyValue('line-height');
+      }
+
+      let h1 = document.querySelector("h1");
+      let h2 = document.querySelector("h2");
+      let p = document.querySelector("p");
+
+      // let h1  = document.getElementById("h1");
+      // let styles = window.getComputedStyle(h1);
+      // let annotation = h1.closest(".size");
+      // annotation.textContent = styles.getPropertyValue('font-size') + ' / ' + styles.getPropertyValue('line-height');
+
+      getSize(h1);
+      getSize(h2);
+      getSize(p);
+
+    }
   }
 </script>
 
@@ -82,8 +114,10 @@
     @include breakpoint(md){
       flex-direction: row;
     }
-
     padding-bottom: $padding;
+    p{
+      padding-bottom: $padding;
+    }
     span{
       color: lightgrey;
     }
