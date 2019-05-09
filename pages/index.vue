@@ -50,27 +50,50 @@
           <span class="label db"></span>
         </div>
         <div class="w-100 w-75-m">
-        <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
-        </p>
-        <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
-        </p>
-        <p>In 2008, Australian letter volumes reached an all-time peak. Since then, the number of addressed letters has declined by over 50 per cent – with more and more Australians choosing digital communication platforms and online transaction methods over the post. But the consumer shift to online channels has also opened up a whole new world of opportunity for our business.
-        </p>
-        <p>
-        With more people choosing to buy and sell online – both in Australia and around the world – we are delivering a record volume of parcels. This increase in online transactions has led to a growing demand for our trusted eCommerce services, as businesses look for secure, quick and convenient solutions to support their customers online.
-        </p>
-        <p>Our extensive networks and history of community service gives us a unique advantage in this evolving landscape. Operating as the Australia Post Group, we are one of the country’s most trusted brands. We operate mostly in Australia, with headquarters in Melbourne, and offices and facilities across the country.
-        </p>
-        <p>We directly employ around 35,000 people across our integrated delivery, logistics, retail and eCommerce network. Counting the thousands of people we employ indirectly – including Licensed Post Office operators, Community Postal Agents and delivery drivers – our extended workforce exceeds 70,000. Deloitte Access Economics recently found that for every worker Australia Post employed, another job was secured in the community.
-        </p>
-        <p>As a Government Business Enterprise (GBE) operating under the Australian Postal Corporation Act 1989 (APC Act), we are required to earn a commercial rate of return while meeting our community service obligations. We are also completely self-funded, and we use our assets and resources for two clear purposes, which are outlined in the APC Act:
-        </p>
-        <ul>
-          <li>to deliver a community service that connects all Australians
-          no matter where they live</li>
-          <li>to earn a profit that we use to pay dividends to the
-          Commonwealth, and to reinvest in our business.</li>
-        </ul>
+          <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
+          </p>
+          <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
+          </p>
+          <p>In 2008, Australian letter volumes reached an all-time peak. Since then, the number of addressed letters has declined by over 50 per cent – with more and more Australians choosing digital communication platforms and online transaction methods over the post. But the consumer shift to online channels has also opened up a whole new world of opportunity for our business.
+          </p>
+          <p>
+          With more people choosing to buy and sell online – both in Australia and around the world – we are delivering a record volume of parcels. This increase in online transactions has led to a growing demand for our trusted eCommerce services, as businesses look for secure, quick and convenient solutions to support their customers online.
+          </p>
+          <p>Our extensive networks and history of community service gives us a unique advantage in this evolving landscape. Operating as the Australia Post Group, we are one of the country’s most trusted brands. We operate mostly in Australia, with headquarters in Melbourne, and offices and facilities across the country.
+          </p>
+          <p>We directly employ around 35,000 people across our integrated delivery, logistics, retail and eCommerce network. Counting the thousands of people we employ indirectly – including Licensed Post Office operators, Community Postal Agents and delivery drivers – our extended workforce exceeds 70,000. Deloitte Access Economics recently found that for every worker Australia Post employed, another job was secured in the community.
+          </p>
+          <p>As a Government Business Enterprise (GBE) operating under the Australian Postal Corporation Act 1989 (APC Act), we are required to earn a commercial rate of return while meeting our community service obligations. We are also completely self-funded, and we use our assets and resources for two clear purposes, which are outlined in the APC Act:
+          </p>
+        </div>
+      </div>
+      <div class="text">
+        <div class="w-100 w-25-m pb1">
+          <span class="db">Numerals (Default)</span>
+          <span class="db">AP Sans - Text Regular</span>
+          <span class="label db"></span>
+        </div>
+        <div class="w-100 w-75-m">
+          <p>These are our default numeral settings:</p>
+          <div class="box">
+            <p class="numerals-default">1234567890</p>
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <div class="w-100 w-25-m pb1">
+          <span class="db">Numerals (Tabular)</span>
+          <span class="db">AP Sans - Text Regular</span>
+          <span class="label db"></span>
+        </div>
+        <div class="w-100 w-75-m">
+          <p>Fixed-width numbers are useful for tabular data, where comparing columns across rows is desired:</p>
+          <div class="box">
+            <p class="row">Tracking Number: <span class="numerals-tabular">1234567890</span></p>
+            <p class="row">Tracking Number: <span class="numerals-tabular">8135468213</span></p>
+            <p class="row">Tracking Number: <span class="numerals-tabular">2541638426</span></p>
+            <p class="row">Tracking Number: <span class="numerals-tabular">3698515662</span></p>
+          </div>
         </div>
       </div>
   </section>
@@ -103,7 +126,7 @@
       getSize(h1);
       getSize(h2);
       getSize(p);
-      
+
       window.addEventListener("resize", function(){
         getSize(h1);
         getSize(h2);
@@ -120,6 +143,7 @@
     max-width: 1440px;
     width: 100%;
     padding: $padding;
+    padding-bottom: $padding * 10;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -128,7 +152,6 @@
     p{
       max-width: 70ch;
     }
-
   }
   .text{
     display: flex;
@@ -136,10 +159,35 @@
     @include breakpoint(md){
       flex-direction: row;
     }
-    padding-bottom: $padding;
+    padding-bottom: $padding * 2;
     p{
       padding-bottom: $padding;
     }
+  }
+
+  .box{
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    p{
+      padding-bottom: 0;
+    }
+  }
+
+  .numerals-default{
+
+  }
+  .numerals-tabular{
+    font-feature-settings: 'tnum' 1;
+    letter-spacing: 0.075em;
+    color: $black;
+    padding-left: 0.5rem;
+  }
+
+  .row{
+    // border-top: 1px solid $grey;
+    // padding-top: 1rem 0;
   }
 
   .nav{
