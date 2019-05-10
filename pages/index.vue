@@ -147,7 +147,7 @@
 
   export default {
     data: () => ({
-      darkMode: false,
+      darkMode: true,
       showText: false
     }),
     methods: {
