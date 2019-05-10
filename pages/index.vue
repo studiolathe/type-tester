@@ -28,7 +28,7 @@
           <span>AP Sans BETA - 19.03.27</span>
         </div>
         <div class="w-100 w-25-m">
-          <span>Background: </span>
+          <span>Contrast: </span>
           <button @click="toggleDarkMode" type="button" name="button">{{ updateText }}</button>
         </div>
       </nav>
