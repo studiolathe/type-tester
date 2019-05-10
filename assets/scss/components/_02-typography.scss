@@ -28,6 +28,7 @@ body {
 h1, h2, h3, h4, h5, h6, blockquote {
   font-family: $display-medium;
   max-width: 35ch;
+  letter-spacing: 0.035em
 }
 
 h1 {
@@ -51,7 +52,7 @@ h1 {
     /* 3x body copy size = 48px */
     line-height: 1.05;
     /* keep to a multiple of the 20px line height and something more appropriate for display headings */
-    letter-spacing: 0.04vw;
+    // letter-spacing: 0.04vw;
   }
 }
 
@@ -131,5 +132,25 @@ blockquote {
 }
 
 span{
-  color: #DC1928;
+  color: rgb(150, 150, 150);
+}
+
+.display-regular{
+  font-family: $display-regular;
+}
+
+.text-bold{
+  font-family: $text-bold;
+}
+
+.text-medium{
+  font-family: $text-medium;
+}
+
+.text-regular{
+  font-family: $text-regular;
+}
+
+.text-light{
+  font-family: $text-light;
 }

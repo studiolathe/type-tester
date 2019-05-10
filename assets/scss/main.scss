@@ -16,10 +16,34 @@
     font-style: normal;
 }
 
+// AP-Sans-Text - Bold
+@font-face {
+    font-family: "Text-Bold";
+    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Bold-BETA-190327-Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// AP-Sans-Text - Medium
+@font-face {
+    font-family: "Text-Medium";
+    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Medium-BETA-190327-Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 // AP-Sans-Text - Regular
 @font-face {
     font-family: "Text-Regular";
     src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Regular-BETA-190327-Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// AP-Sans-Text - Light
+@font-face {
+    font-family: "Text-Light";
+    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Light-BETA-190327-Web.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }

@@ -11,9 +11,13 @@ $grey:              #edf3f3;
 $peach:             #fbe7d3;
 $orange:            #FF9800;
 
-$display-regular: 'Display-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $display-medium: 'Display-Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$display-regular: 'Display-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+$text-bold: 'Text-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$text-medium: 'Text-Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $text-regular: 'Text-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$text-light: 'Text-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
 $ease: cubic-bezier(0.77, 0, 0.18, 1);
 $smooth: cubic-bezier(.23, 1, .32, 1) 0ms;

@@ -1,5 +1,6 @@
 <template>
-  <section class="container">
+  <section class="container" :class="{ 'container-dark': !darkMode }">
+    <div class="container-wrapper">
       <nav class="nav">
         <div class="w-100 w-25-m">
           <div class="logo">
@@ -23,8 +24,12 @@
             </svg>
           </div>
         </div>
-        <div class="w-100 w-75-m">
+        <div class="w-100 w-25-m">
           <span>AP Sans BETA - 19.03.27</span>
+        </div>
+        <div class="w-100 w-25-m">
+          <span>Background: </span>
+          <button @click="toggleDarkMode" type="button" name="button">{{ updateText }}</button>
         </div>
       </nav>
       <div class="text heading-one">
@@ -33,7 +38,15 @@
           <span class="db">AP Sans - Display Medium</span>
           <span class="label db"></span>
         </div>
-        <h1 id="h1" class="w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
+        <h1 class="h1 w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
+      </div>
+      <div class="text heading-one">
+        <div class="w-100 w-25-m pb1">
+          <span class="db">Heading One</span>
+          <span class="db">AP Sans - Display Regular</span>
+          <span class="label db"></span>
+        </div>
+        <h1 class="h1 w-100 w-75-m pb1 display-regular">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
       </div>
       <div class="text heading-two">
         <div class="w-100 w-25-m pb1">
@@ -41,7 +54,30 @@
           <span class="db">AP Sans - Display Medium</span>
           <span class="label db"></span>
         </div>
-        <h2 class="w-100 w-75-m pb1">Our network of 4,356 post offices enables convenient, local access to essential services in ommunities everywhere.</h2>
+        <h2 class="h2 w-100 w-75-m pb1">Our network of 4,356 post offices enables convenient, local access to essential services in ommunities everywhere.</h2>
+      </div>
+      <div class="text heading-two">
+        <div class="w-100 w-25-m pb1">
+          <span class="db">Heading Two</span>
+          <span class="db">AP Sans - Display Regular</span>
+          <span class="label db"></span>
+        </div>
+        <h2 class="h2 w-100 w-75-m pb1 display-regular">Our network of 4,356 post offices enables convenient, local access to essential services in ommunities everywhere.</h2>
+      </div>
+      <div class="text body">
+        <div class="w-100 w-25-m pb1">
+          <span class="db">Body Text</span>
+          <span class="db">AP Sans - Text Medium</span>
+          <span class="label db"></span>
+        </div>
+        <div class="p w-100 w-75-m text-medium">
+          <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
+          </p>
+          <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
+          </p>
+          <p>In 2008, Australian letter volumes reached an all-time peak. Since then, the number of addressed letters has declined by over 50 per cent – with more and more Australians choosing digital communication platforms and online transaction methods over the post. But the consumer shift to online channels has also opened up a whole new world of opportunity for our business.
+          </p>
+        </div>
       </div>
       <div class="text body">
         <div class="w-100 w-25-m pb1">
@@ -49,21 +85,27 @@
           <span class="db">AP Sans - Text Regular</span>
           <span class="label db"></span>
         </div>
-        <div class="w-100 w-75-m">
+        <div class="p w-100 w-75-m text-regular">
           <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
           </p>
           <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
           </p>
           <p>In 2008, Australian letter volumes reached an all-time peak. Since then, the number of addressed letters has declined by over 50 per cent – with more and more Australians choosing digital communication platforms and online transaction methods over the post. But the consumer shift to online channels has also opened up a whole new world of opportunity for our business.
           </p>
-          <p>
-          With more people choosing to buy and sell online – both in Australia and around the world – we are delivering a record volume of parcels. This increase in online transactions has led to a growing demand for our trusted eCommerce services, as businesses look for secure, quick and convenient solutions to support their customers online.
+        </div>
+      </div>
+      <div class="text body">
+        <div class="w-100 w-25-m pb1">
+          <span class="db">Body Text</span>
+          <span class="db">AP Sans - Text Light</span>
+          <span class="label db"></span>
+        </div>
+        <div class="p w-100 w-75-m text-light">
+          <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
           </p>
-          <p>Our extensive networks and history of community service gives us a unique advantage in this evolving landscape. Operating as the Australia Post Group, we are one of the country’s most trusted brands. We operate mostly in Australia, with headquarters in Melbourne, and offices and facilities across the country.
+          <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
           </p>
-          <p>We directly employ around 35,000 people across our integrated delivery, logistics, retail and eCommerce network. Counting the thousands of people we employ indirectly – including Licensed Post Office operators, Community Postal Agents and delivery drivers – our extended workforce exceeds 70,000. Deloitte Access Economics recently found that for every worker Australia Post employed, another job was secured in the community.
-          </p>
-          <p>As a Government Business Enterprise (GBE) operating under the Australian Postal Corporation Act 1989 (APC Act), we are required to earn a commercial rate of return while meeting our community service obligations. We are also completely self-funded, and we use our assets and resources for two clear purposes, which are outlined in the APC Act:
+          <p>In 2008, Australian letter volumes reached an all-time peak. Since then, the number of addressed letters has declined by over 50 per cent – with more and more Australians choosing digital communication platforms and online transaction methods over the post. But the consumer shift to online channels has also opened up a whole new world of opportunity for our business.
           </p>
         </div>
       </div>
@@ -96,6 +138,7 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
 </template>
 
@@ -103,7 +146,23 @@
   import $ from 'jquery'
 
   export default {
+    data: () => ({
+      darkMode: false,
+      showText: false
+    }),
+    methods: {
+      toggleDarkMode() {
+        this.darkMode = !this.darkMode
+      }
+    },
+    computed: {
+      updateText() {
+        return this.darkMode ? 'Dark' : 'Light'
+      }
+    },
     mounted: () => {
+
+
 
       // let para = document.querySelector('p');
       // let compStyles = window.getComputedStyle(para);
@@ -113,25 +172,25 @@
       //     compStyles.getPropertyValue('line-height') +
       //     '.';
 
-      let getSize = function(elem) {
-        let styles = window.getComputedStyle(elem);
-        let label = elem.closest('.text').querySelector('.label')
-        label.textContent = styles.getPropertyValue('font-size') + ' / ' + styles.getPropertyValue('line-height');
-      }
-
-      let h1 = document.querySelector("h1");
-      let h2 = document.querySelector("h2");
-      let p = document.querySelector("p");
-
-      getSize(h1);
-      getSize(h2);
-      getSize(p);
-
-      window.addEventListener("resize", function(){
-        getSize(h1);
-        getSize(h2);
-        getSize(p);
-      });
+      // let getSize = function(elem) {
+      //   let styles = window.getComputedStyle(elem);
+      //   let label = elem.closest('.text').querySelector('.label')
+      //   label.textContent = styles.getPropertyValue('font-size') + ' / ' + styles.getPropertyValue('line-height');
+      // }
+      //
+      // let h1 = document.querySelectorAll('.h1');
+      // let h2 = document.querySelectorAll('.h2');
+      // let p = document.querySelectorAll('.p');
+      //
+      // // getSize(h1);
+      // // getSize(h2);
+      // // getSize(p);
+      //
+      // window.addEventListener("resize", function(){
+      //   // getSize(h1);
+      //   // getSize(h2);
+      //   // getSize(p);
+      // });
 
 
     }
@@ -139,7 +198,19 @@
 </script>
 
 <style lang="scss" scoped>
-  .container{
+  .container-dark{
+    background-color:#292F33;
+    color: $white;
+    transition: all 0.25s $ease;
+    .logo > svg{
+      path{
+        fill: $white;
+      }
+
+    }
+  }
+
+  .container-wrapper{
     max-width: 1440px;
     width: 100%;
     padding: $padding;
@@ -149,6 +220,11 @@
     justify-content: flex-start;
     align-content: flex-start;
     margin: 0 auto;
+
+    .h1,
+    .h2{
+      max-width: 60ch;
+    }
     p{
       max-width: 70ch;
     }
