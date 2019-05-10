@@ -206,7 +206,9 @@
       path{
         fill: $white;
       }
-
+    }
+    .box{
+      color: $black;
     }
   }
 
