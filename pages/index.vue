@@ -25,50 +25,273 @@
           </div>
         </div>
         <div class="w-100 w-25-m">
-          <span>AP Sans BETA - 19.03.27</span>
+          <span class="mono">AP Sans BETA - 19.03.27</span>
         </div>
         <div class="w-100 w-25-m">
-          <span>Contrast: </span>
-          <button @click="toggleDarkMode" type="button" name="button">{{ updateText }}</button>
+          <span class="mono">Contrast: </span>
+          <button class="mono" @click="toggleDarkMode" type="button" name="button">{{ updateText }}</button>
         </div>
       </nav>
-      <div class="text heading-one">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Heading One</span>
-          <span class="db">AP Sans - Display Medium</span>
-          <span class="label db"></span>
-        </div>
-        <h1 class="h1 w-100 w-75-m pb1">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
+
+      <div class="divider w-100">
+        <span class="mono">Type Styles</span>
+        <span class="mono">Featured Headline</span>
       </div>
+
+      <!-- Display Bold -->
       <div class="text heading-one">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Heading One</span>
-          <span class="db">AP Sans - Display Regular</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Leader: Text Bold</span>
+          <span class="db mono">Headline: Display Bold</span>
+          <span class="db mono">Subline: Text Regular</span>
+          <span class="label db mono"></span>
         </div>
-        <h1 class="h1 w-100 w-75-m pb1 display-regular">Over our long history, our social purpose and commitment to the community has remained the same; to create connections and opportunities that matter to every Australian.</h1>
+        <div class="card-featured">
+          <div class="backbone"></div>
+          <div class="w-100 w-70-m">
+            <h1 class="h1 pb1 display-bold"><small>Travel</small>Your winter travel essentials sorted in one go</h1>
+            <p class="sub-text w-100 w-70-m">Enjoy 10% off our travel insurance and special rates on selected currencies during the month of June.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Display Bold 200 -->
+      <div class="text heading-one">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Leader: Text Bold</span>
+          <span class="db mono">Headline: Display Bold 200</span>
+          <span class="db mono">Subline: Text Regular</span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="card-featured">
+          <div class="backbone"></div>
+          <div class="w-100 w-70-m">
+            <h1 class="h1 pb1 display-bold-200"><small>Travel</small>Your winter travel essentials sorted in one go</h1>
+            <p class="sub-text w-100 w-70-m">Enjoy 10% off our travel insurance and special rates on selected currencies during the month of June.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Display Bold 100 -->
+      <div class="text heading-one">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Leader: Text Bold</span>
+          <span class="db mono">Headline: Display Bold 100</span>
+          <span class="db mono">Subline: Text Regular</span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="card-featured">
+          <div class="backbone"></div>
+          <div class="w-100 w-70-m">
+            <h1 class="h1 pb1 display-bold-100"><small>Travel</small>Your winter travel essentials sorted in one go</h1>
+            <p class="sub-text w-100 w-70-m">Enjoy 10% off our travel insurance and special rates on selected currencies during the month of June.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Medium -->
+      <div class="text heading-one">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Leader: Text Bold</span>
+          <span class="db mono">Headline: Display Medium</span>
+          <span class="db mono">Subline: Text Regular</span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="card-featured">
+          <div class="backbone"></div>
+          <div class="w-100 w-70-m">
+            <h1 class="h1 pb1 display-medium"><small>Travel</small>Your winter travel essentials sorted in one go</h1>
+            <p class="sub-text w-100 w-70-m">Enjoy 10% off our travel insurance and special rates on selected currencies during the month of June.</p>
+          </div>
+        </div>
       </div>
       <div class="text heading-two">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Heading Two</span>
-          <span class="db">AP Sans - Display Medium</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Leader: Text Bold</span>
+          <span class="db mono">Headline: Display Regular</span>
+          <span class="db mono">Subline: Text Regular</span>
+          <span class="label db mono"></span>
         </div>
-        <h2 class="h2 w-100 w-75-m pb1">Our network of 4,356 post offices enables convenient, local access to essential services in ommunities everywhere.</h2>
-      </div>
-      <div class="text heading-two">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Heading Two</span>
-          <span class="db">AP Sans - Display Regular</span>
-          <span class="label db"></span>
+        <div class="card-featured">
+          <div class="backbone"></div>
+          <div class="w-100 w-70-m">
+            <h1 class="h1 pb1 display-regular"><small>Travel</small>Your winter travel essentials sorted in one go</h1>
+            <p class="sub-text w-100 w-70-m">Enjoy 10% off our travel insurance and special rates on selected currencies during the month of June.</p>
+          </div>
         </div>
-        <h2 class="h2 w-100 w-75-m pb1 display-regular">Our network of 4,356 post offices enables convenient, local access to essential services in ommunities everywhere.</h2>
       </div>
+
+      <div class="divider w-100">
+        <span class="mono">Type Styles</span>
+        <span class="mono">Article Headline</span>
+      </div>
+
+      <!-- Display Bold -->
       <div class="text body">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Body Text</span>
-          <span class="db">AP Sans - Text Medium</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Bold</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="">
+            <h3 class="display-bold pb1">How can eParcel help?</h3>
+            <p class="sub-text w-100 w-60-m">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Bold 200 -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Bold 200</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="">
+            <h3 class="display-bold-200 pb1">How can eParcel help?</h3>
+            <p class="sub-text w-100 w-60-m">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Bold 100 -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Bold 100</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="">
+            <h3 class="display-bold-100 pb1">How can eParcel help?</h3>
+            <p class="sub-text w-100 w-60-m">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Medium -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Medium</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="">
+            <h3 class="display-medium pb1">How can eParcel help?</h3>
+            <p class="sub-text w-100 w-60-m">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Regular -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Regular</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="">
+            <h3 class="display-regular pb1">How can eParcel help?</h3>
+            <p class="sub-text w-100 w-60-m">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured cards -->
+      <div class="divider w-100">
+        <span class="mono">Type Styles</span>
+        <span class="mono">Featured Cards</span>
+      </div>
+      <!-- Display Bold -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Bold</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="card">
+            <h3 class="display-bold pb1">How can eParcel help?</h3>
+            <p class="sub-text">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Bold 200 -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Bold 200</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="card">
+            <h3 class="display-bold-200 pb1">How can eParcel help?</h3>
+            <p class="sub-text">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Bold 100 -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Bold 100</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="card">
+            <h3 class="display-bold-100 pb1">How can eParcel help?</h3>
+            <p class="sub-text">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Medium -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Medium</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="card">
+            <h3 class="display-medium pb1">How can eParcel help?</h3>
+            <p class="sub-text">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Display Regular -->
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Heading: Display Regular</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m">
+          <div class="card">
+            <h3 class="display-regular pb1">How can eParcel help?</h3>
+            <p class="sub-text">If you're a high-volume, established online seller, sending more than 1,000 parcels a year, eParcel is the online delivery solution that can help you streamline your product distribution.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider w-100">
+        <span class="mono">Type Styles</span>
+        <span class="mono">Body (Long line length)</span>
+      </div>
+
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Body: Text Medium</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
         </div>
         <div class="p w-100 w-75-m text-medium">
           <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
@@ -80,10 +303,10 @@
         </div>
       </div>
       <div class="text body">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Body Text</span>
-          <span class="db">AP Sans - Text Regular</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
         </div>
         <div class="p w-100 w-75-m text-regular">
           <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
@@ -95,10 +318,10 @@
         </div>
       </div>
       <div class="text body">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Body Text</span>
-          <span class="db">AP Sans - Text Light</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Body: Text Light</span>
+          <span class="db mono"></span>
+          <span class="label db mono"></span>
         </div>
         <div class="p w-100 w-75-m text-light">
           <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
@@ -109,31 +332,52 @@
           </p>
         </div>
       </div>
+
+      <div class="divider w-100">
+        <span class="mono">Type Styles</span>
+        <span class="mono">Tracking Forms (Tabular vs Default)</span>
+      </div>
+
       <div class="text">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Numerals (Default)</span>
-          <span class="db">AP Sans - Text Regular</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Numerals (Default)</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="label db mono"></span>
         </div>
-        <div class="w-100 w-75-m">
+        <div class="w-100 w-75-m tracking-codes">
           <p>These are our default numeral settings:</p>
           <div class="box">
-            <p class="numerals-default">1234567890</p>
+            <p class="row">Tracking Number: <span class="numerals-default">1234567890</span></p>
+          </div>
+          <div class="box">
+            <p class="row">Tracking Number: <span class="numerals-default">8135468213</span></p>
+          </div>
+          <div class="box">
+            <p class="row">Tracking Number: <span class="numerals-default">2541638426</span></p>
+          </div>
+          <div class="box">
+            <p class="row">Tracking Number: <span class="numerals-default">3698515662</span></p>
           </div>
         </div>
       </div>
       <div class="text">
-        <div class="w-100 w-25-m pb1">
-          <span class="db">Numerals (Tabular)</span>
-          <span class="db">AP Sans - Text Regular</span>
-          <span class="label db"></span>
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Numerals (Tabular)</span>
+          <span class="db mono">Body: Text Regular</span>
+          <span class="label db mono"></span>
         </div>
-        <div class="w-100 w-75-m">
-          <p>Fixed-width numbers are useful for tabular data, where comparing columns across rows is desired:</p>
+        <div class="w-100 w-75-m tracking-codes">
+          <p>Fixed-width numbers (Tabular Lining enabled) are useful for tabular data, where comparing columns across rows is desired:</p>
           <div class="box">
             <p class="row">Tracking Number: <span class="numerals-tabular">1234567890</span></p>
+          </div>
+          <div class="box">
             <p class="row">Tracking Number: <span class="numerals-tabular">8135468213</span></p>
+          </div>
+          <div class="box">
             <p class="row">Tracking Number: <span class="numerals-tabular">2541638426</span></p>
+          </div>
+          <div class="box">
             <p class="row">Tracking Number: <span class="numerals-tabular">3698515662</span></p>
           </div>
         </div>
@@ -210,6 +454,13 @@
     .box{
       color: $black;
     }
+    .sub-text{
+      color: rgba($white, 0.8);
+    }
+
+    .divider{
+      border-color: #525252;
+    }
   }
 
   .container-wrapper{
@@ -234,27 +485,84 @@
   .text{
     display: flex;
     flex-direction: column;
+    padding-bottom: $padding * 4;
     @include breakpoint(md){
       flex-direction: row;
+      padding-bottom: $padding * 8;
     }
-    padding-bottom: $padding * 2;
     p{
       padding-bottom: $padding;
     }
   }
 
+  .card-featured{
+    display: flex;
+    flex-direction: row;
+    .backbone{
+      display: block;
+      background: $red;
+      width: 4px;
+      min-height: 100%;
+      margin-right: 1rem;
+      @include breakpoint(md){
+          margin-right: 2rem;
+      }
+    }
+  }
+
+  .card{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: $padding * 2;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+    @include breakpoint(md){
+      max-width: 50ch;
+    }
+  }
+
+  .divider{
+    margin-bottom: $padding * 4;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    @include breakpoint(md){
+      margin-top: $padding * 8;
+      &:first-of-type{
+        margin-top: 0;
+      }
+    }
+    span{
+      display: block;
+      padding-bottom: $padding;
+      &:first-of-type{
+        width: 50%;
+        @include breakpoint(md){
+          width: 25%;
+        }
+      }
+    }
+  }
+
   .box{
     background-color: rgb(238, 238, 238);
-    display: inline-block;
+    display: block;
     padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
     border-radius: 0.25rem;
     p{
       padding-bottom: 0;
     }
   }
 
-  .numerals-default{
+  .sub-text{
+    color: $light-black;
+    font-size: 18px;
+    padding-bottom: 0 !important;
+  }
 
+  .numerals-default{
+    color: $black;
+    padding-left: 0.5rem;
   }
   .numerals-tabular{
     font-feature-settings: 'tnum' 1;
@@ -274,7 +582,7 @@
     justify-content: flex-start;
     align-content: flex-end;
 
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
     .logo{
       max-width: 200px;
       align-self: flex-start;

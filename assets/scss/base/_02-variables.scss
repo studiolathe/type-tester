@@ -1,6 +1,7 @@
-$black:             #000000;
+$black:             #232329;
+$light-black:       rgba(35, 35, 41, 0.80);
 $white:             #ffffff;
-$grey:              #adadad;
+$grey:              rgb(150, 150, 150);
 $tan:               #F7F5F3;
 $dark-tan:          #d4cec9;
 $light-tan:         #f1e9e3;
@@ -10,9 +11,13 @@ $light-pink:        #ffd6d6;
 $grey:              #edf3f3;
 $peach:             #fbe7d3;
 $orange:            #FF9800;
+$red:               #DC1928;
 
-$display-medium: 'Display-Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $display-regular: 'Display-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$display-medium: 'Display-Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$display-bold-100: 'Display-Bold-100', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$display-bold-200: 'Display-Bold-200', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$display-bold: 'Display-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
 $text-bold: 'Text-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 $text-medium: 'Text-Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;

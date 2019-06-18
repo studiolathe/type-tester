@@ -26,8 +26,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, blockquote {
-  font-family: $display-medium;
-  max-width: 35ch;
+  // font-family: $display-medium;
+  // max-width: 35ch;
   letter-spacing: 0.035em
 }
 
@@ -115,6 +115,10 @@ h4 {
   }
 }
 
+h5{
+  font-size: 18px;
+}
+
 blockquote {
   font-size: 1.25em;
   /* 20px / 16px */
@@ -131,10 +135,34 @@ blockquote {
   }
 }
 
-span{
-  color: rgb(150, 150, 150);
+small{
+  font-family: $text-bold;
+  display: block;
+  color: $red;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
 }
 
+.mono{
+  color: rgb(150, 150, 150);
+  font-family: 'SFMono-Regular', monospace;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.display-bold{
+  font-family: $display-bold;
+}
+.display-bold-200{
+  font-family: $display-bold-200;
+}
+.display-bold-100{
+  font-family: $display-bold-100;
+}
+.display-medium{
+  font-family: $display-medium;
+}
 .display-regular{
   font-family: $display-regular;
 }
