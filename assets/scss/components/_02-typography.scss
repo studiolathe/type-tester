@@ -2,6 +2,7 @@
 // ========================================================================== */
 body {
   font-size: 100%;
+  color: $black;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -28,7 +29,8 @@ body {
 h1, h2, h3, h4, h5, h6, blockquote {
   // font-family: $display-medium;
   // max-width: 35ch;
-  letter-spacing: 0.035em
+  letter-spacing: 0.035em;
+  color: $black;
 }
 
 h1 {
