@@ -305,10 +305,25 @@
       <div class="text body">
         <div class="w-100 w-25-m pb2">
           <span class="db mono">Body: Text Regular</span>
-          <span class="db mono"></span>
+          <span class="db mono">100%</span>
           <span class="label db mono"></span>
         </div>
         <div class="p w-100 w-75-m text-regular">
+          <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
+          </p>
+          <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
+          </p>
+          <p>In 2008, Australian letter volumes reached an all-time peak. Since then, the number of addressed letters has declined by over 50 per cent – with more and more Australians choosing digital communication platforms and online transaction methods over the post. But the consumer shift to online channels has also opened up a whole new world of opportunity for our business.
+          </p>
+        </div>
+      </div>
+      <div class="text body">
+        <div class="w-100 w-25-m pb2">
+          <span class="db mono">Body: Text Regular</span>
+          <span class="db mono">80%</span>
+          <span class="label db mono"></span>
+        </div>
+        <div class="p w-100 w-75-m text-regular light-black">
           <p>At Australia Post we proudly provide trusted ways for people, businesses and communities to connect with each other and the world. As our world changes, so too does our business. While we deliver over three billion articles a year, the mix is shifting dramatically to parcels as the community embraces eCommerce and new forms of digital communication.
           </p>
           <p>Today, Australia Post facilitates 82 per cent of the nation’s eCommerce, while new financial and identity services are changing the role of our post offices. Our business has changed significantly over the last decade.
@@ -508,6 +523,10 @@
           margin-right: 2rem;
       }
     }
+  }
+
+  .light-black{
+    color: $light-black;
   }
 
   .card{
