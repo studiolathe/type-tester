@@ -58,7 +58,7 @@
         <div class="w-100 w-25-m">
           <span class="mono">Contrast: </span>
           <button
-            class="mono"
+            class="toggle-button mono"
             @click="toggleDarkMode"
             type="button"
             name="button"
@@ -700,7 +700,10 @@ small {
 
   padding-bottom: 10rem;
   .logo {
-    max-width: 100px;
+    max-width: 40px;
+    @include breakpoint(lg) {
+      max-width: 80px;
+    }
     align-self: flex-start;
     .wordmark {
       display: none;
@@ -742,5 +745,9 @@ small {
       }
     }
   }
+}
+
+.toggle-button {
+  text-decoration: underline;
 }
 </style>
