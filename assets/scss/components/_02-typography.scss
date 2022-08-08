@@ -5,7 +5,22 @@ body {
   color: $black;
 }
 
-body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size-adjust: 0.5;
 }
 
@@ -26,10 +41,17 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6, blockquote {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
   // font-family: $display-medium;
   // max-width: 35ch;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.005em;
+  word-spacing: 0.001em;
   color: $black;
 }
 
@@ -50,9 +72,9 @@ h1 {
 
 @media (min-width: 56.25em) {
   h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     /* 3x body copy size = 48px */
-    line-height: 1.05;
+    line-height: 1;
     /* keep to a multiple of the 20px line height and something more appropriate for display headings */
     // letter-spacing: 0.04vw;
   }
@@ -117,7 +139,7 @@ h4 {
   }
 }
 
-h5{
+h5 {
   font-size: 18px;
 }
 
@@ -137,50 +159,11 @@ blockquote {
   }
 }
 
-small{
-  font-family: $text-bold;
-  display: block;
-  color: $red;
-  font-size: 10px;
-  text-transform: uppercase;
-  padding-bottom: 0.5rem;
-}
 
-.mono{
+
+.mono {
   color: rgb(150, 150, 150);
   font-family: 'SFMono-Regular', monospace;
   font-weight: 100;
   font-size: 12px;
-}
-
-.display-bold{
-  font-family: $display-bold;
-}
-.display-bold-200{
-  font-family: $display-bold-200;
-}
-.display-bold-100{
-  font-family: $display-bold-100;
-}
-.display-medium{
-  font-family: $display-medium;
-}
-.display-regular{
-  font-family: $display-regular;
-}
-
-.text-bold{
-  font-family: $text-bold;
-}
-
-.text-medium{
-  font-family: $text-medium;
-}
-
-.text-regular{
-  font-family: $text-regular;
-}
-
-.text-light{
-  font-family: $text-light;
 }

@@ -1,75 +1,65 @@
 @charset 'utf-8';
 
-// AP-Sans-Display - Regular
+// Telstra-Sans-Display - Light
 @font-face {
-    font-family: "Display-Regular";
-    src: url("../fonts/AP-Sans-Display/AP-Sans-Display-Regular-BETA-190327-Web.woff") format("woff");
+    font-family: 'Display-Light';
+    src: url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Light.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-// AP-Sans-Display - Medium
+// Telstra-Sans-Display - Regular
 @font-face {
-    font-family: "Display-Medium";
-    src: url("../fonts/AP-Sans-Display/AP-Sans-Display-Medium-BETA-190327-Web.woff") format("woff");
+    font-family: 'Display-Regular';
+    src: url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Regular.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-// AP-Sans-Display - Bold 100 190617
+// Telstra-Sans-Display - Medium
 @font-face {
-    font-family: "Display-Bold-100";
-    src: url("../fonts/AP-Sans-Display/AP-Sans-Display-Bold-100-BETA-190617-Web.woff") format("woff");
+    font-family: 'Display-Medium';
+    src: url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Medium.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-// AP-Sans-Display - Bold 200 190617
+// Telstra-Sans-Display - Bold 100 190617
 @font-face {
-    font-family: "Display-Bold-200";
-    src: url("../fonts/AP-Sans-Display/AP-Sans-Display-Bold-200-BETA-190617-Web.woff") format("woff");
+    font-family: 'Display-Bold';
+    src: url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Bold.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraDisplay-2_0-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-// AP-Sans-Display - Bold
+// Telstra-Sans-Text - Bold
 @font-face {
-    font-family: "Display-Bold";
-    src: url("../fonts/AP-Sans-Display/AP-Sans-Display-Bold-BETA-190327-Web.woff") format("woff");
+    font-family: 'Text-Bold';
+    src: url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Bold.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-
-
-// AP-Sans-Text - Bold
+// Telstra-Sans-Text - Medium
 @font-face {
-    font-family: "Text-Bold";
-    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Bold-BETA-190327-Web.woff") format("woff");
+    font-family: 'Text-Medium';
+    src: url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Medium.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-// AP-Sans-Text - Medium
+// Telstra-Sans-Text - Regular
 @font-face {
-    font-family: "Text-Medium";
-    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Medium-BETA-190327-Web.woff") format("woff");
+    font-family: 'Text-Regular';
+    src: url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Regular.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-// AP-Sans-Text - Regular
+// Telstra-Sans-Text - Light
 @font-face {
-    font-family: "Text-Regular";
-    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Regular-BETA-190327-Web.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-// AP-Sans-Text - Light
-@font-face {
-    font-family: "Text-Light";
-    src: url("../fonts/AP-Sans-Text/AP-Sans-Text-Light-BETA-190327-Web.woff") format("woff");
+    font-family: 'Text-Light';
+    src: url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Light.woff2') format('woff2'), url('~assets/fonts/Telstra-Sans/TelstraText-2_0-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -80,19 +70,19 @@
 @import 'base/index';
 
 * {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-  text-decoration: inherit;
-  box-sizing: border-box;
-  border: none;
-  color: inherit;
-  appearance: none;
-  border-radius: 0;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    text-decoration: inherit;
+    box-sizing: border-box;
+    border: none;
+    color: inherit;
+    appearance: none;
+    border-radius: 0;
 
-  &:focus {
-    outline: 0;
-  }
+    &:focus {
+        outline: 0;
+    }
 }
 
 /* Base Styles */
@@ -105,17 +95,49 @@
 // }
 
 html,
-body{
-  height: 100%;
+body {
+    height: 100%;
 }
 
 body {
-  font-family: $text-regular;
-  font-feature-settings:"kern" 1;
-  font-kerning: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  color: $black;
+    font-family: $text-regular;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    color: $black;
+}
+
+.display-bold {
+    font-family: $display-bold;
+}
+
+.display-medium {
+    font-family: $display-medium;
+}
+
+.display-regular {
+    font-family: $display-regular;
+}
+
+.display-light {
+    font-family: $display-light;
+}
+
+.text-bold {
+    font-family: $text-bold;
+}
+
+.text-medium {
+    font-family: $text-medium;
+}
+
+.text-regular {
+    font-family: $text-regular;
+}
+
+.text-light {
+    font-family: $text-light;
 }
 
 // ==========================================================================

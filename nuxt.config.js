@@ -1,7 +1,6 @@
 import pkg from './package'
 
 export default {
-  mode: 'universal',
 
   /*
   ** Headers of the page
@@ -48,7 +47,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/svg',
   ],
 
   /*
