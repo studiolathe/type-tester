@@ -1,7 +1,7 @@
 import pkg from './package'
 
 export default {
-
+  target: 'static',
   /*
   ** Headers of the page
   */
