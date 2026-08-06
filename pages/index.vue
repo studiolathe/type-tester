@@ -686,8 +686,16 @@ export default {
   .h1,
   .h2,
   h1,
-  h2 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
     color: $white;
+  }
+  .mono {
+    color: rgba($white, 0.65);
   }
   .logo > svg {
     path {
@@ -695,10 +703,20 @@ export default {
     }
   }
   .box {
-    color: $black;
+    background-color: rgba($white, 0.1);
+    color: $white;
   }
-  .sub-text {
+  .card {
+    border-color: rgba($white, 0.18);
+    box-shadow: none;
+  }
+  .sub-text,
+  .light-black {
     color: rgba($white, 0.8);
+  }
+  .numerals-default,
+  .numerals-tabular {
+    color: $white;
   }
 
   .divider {
